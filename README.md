@@ -32,7 +32,7 @@ This GitHub Action sends a message to a Telegram chat using a Telegram bot. It s
 
 ```yaml
 - name: Send Telegram Notification
-  uses: DiyRex/tgsend@v1
+  uses: DiyRex/tgsend@v1.1
   with:
     bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
