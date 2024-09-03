@@ -29,7 +29,7 @@ runs:
         MARKDOWN: ${{ inputs.markdown }}
       run: |
         if [ "$MARKDOWN" = "true" ]; then
-          PARSE_MODE="-d parse_mode=MarkdownV2"
+          PARSE_MODE="-d parse_mode=Markdown"
         else
           PARSE_MODE=""
         fi
