@@ -1,4 +1,4 @@
-# Telegram Notify Action
+# Telegram Message Send Action
 
 This GitHub Action sends a message to a Telegram chat using a Telegram bot. It supports optional Markdown formatting for the message.
 

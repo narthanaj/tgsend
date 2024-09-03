@@ -1,4 +1,4 @@
-name: 'Telegram Notify Action'
+name: 'Telegram Message Send Action'
 description: 'Send a message to a Telegram chat with optional Markdown support'
 inputs:
   bot_token:
