@@ -1,7 +1,8 @@
 name: 'Telegram Message Send Action'
 description: 'Send a message to a Telegram chat with optional Markdown support'
-icon: 'bell'
-color: 'blue'
+branding:
+  icon: 'bell'
+  color: 'blue'
 inputs:
   bot_token:
     description: 'Telegram Bot Token'
