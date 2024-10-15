@@ -53,3 +53,4 @@ runs:
           -d chat_id=$TELEGRAM_CHAT_ID \
           -d text="$MESSAGE" \
           $PARSE_MODE
+        fi
